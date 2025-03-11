@@ -1,5 +1,6 @@
 import { FC, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
 
@@ -54,17 +55,17 @@ const MobileMenu: FC<MobileMenuProps> = ({
           >
             <div className="flex justify-between items-center p-4 border-b border-gray-100">
               <div className="flex items-center">
-                <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm">
-                  <img src="/lotus.svg" alt="Logo Satori Massage" className="w-5 h-5" />
+                <div className="w-10 h-10 bg-background rounded-full flex items-center justify-center">
+                <Image src="/lotus.svg" alt="Logo Satori Massage" width={40} height={40} />
                 </div>
-                <div className="flex flex-col ml-2">
-                  <p className="ml-2 font-brand text-3xl">Satori</p>
-                  <p className="text-sm ml-4">Massage</p>
+                <div className="ml-2 flex flex-col">
+                  <p className="font-brand text-4xl leading-none">Satori</p>
+                  <p className="text-sm ml-2">Massage</p>
                 </div>
               </div>
               <button
                 onClick={onClose}
-                className="p-2 rounded-full hover:bg-gray-50 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary/20"
+                className="p-2 rounded-full hover:bg-gray-100 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary/20"
                 aria-label="Cerrar menú"
               >
                 <X className="h-6 w-6 text-primary" />

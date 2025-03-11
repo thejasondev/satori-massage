@@ -77,7 +77,7 @@ export default function About() {
         </div>
 
         <div className="grid gap-6 mt-16 sm:grid-cols-2 lg:grid-cols-4">
-          {stats.map((stat, index) => (
+          {stats.map((stat) => (
             <div
               key={stat.label}
               className="group relative overflow-hidden rounded-2xl bg-white p-6 shadow-md transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
