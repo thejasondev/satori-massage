@@ -38,7 +38,7 @@ export default function Hero() {
           {/* Imagen principal con efecto de escala al hover */}
           <div className="relative w-full h-full transform transition-transform duration-10000 ease-in-out group-hover:scale-105">
             <Image
-              src="/masaje4.jpg?height=900&width=1600"
+              src="/masaje4.JPG"
               alt="Masaje terapéutico profesional"
               fill
               className="object-cover filter brightness-[0.9] contrast-[1.05]"

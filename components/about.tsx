@@ -42,7 +42,7 @@ export default function About() {
             {/* Imagen principal con efecto de escala al hover */}
             <div className="relative w-full h-full transform transition-transform duration-10000 ease-in-out group-hover:scale-105">
               <Image
-                src="/profile.jpg?height=600&width=600"
+                src="/profile.JPG"
                 alt="Masajista profesional"
                 fill
                 className="object-cover"
