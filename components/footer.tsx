@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { Instagram, Facebook, Phone } from "lucide-react"
 
 const navigation = [
@@ -22,7 +23,7 @@ export default function Footer() {
             <Link href="#inicio" className="relative z-50 flex items-center">
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-background rounded-full flex items-center justify-center">
-                  <img src="/lotus.svg" alt="Logo Satori Massage" />
+                <Image src="/lotus.svg" alt="Logo Satori Massage" width={40} height={40} />
                 </div>
                 <div className="ml-2 flex flex-col">
                   <p className="font-brand text-4xl leading-none">Satori</p>
@@ -76,10 +77,9 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 mt-8 text-sm text-center border-t border-muted-foreground/20 text-gray-500">
-          <p>© {currentYear} Satori Massage. Todos los derechos reservados.</p>
+          <p> {currentYear} Satori Massage. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
   )
 }
-

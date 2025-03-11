@@ -69,7 +69,7 @@ export default function About() {
               cliente.
             </p>
             <p className="mb-12 text-gray-500 slide-in-right">
-              El nombre <span className="font-brand text-3xl text-black">"Satori"</span> proviene de la filosofía zen y significa "iluminación" o "comprensión". Mi objetivo es
+              El nombre <span className="font-brand text-3xl text-black">&ldquo;Satori&rdquo;</span> proviene de la filosofía zen y significa &ldquo;iluminación&rdquo; o &ldquo;comprensión&rdquo;. Mi objetivo es
               que cada cliente termine la sesión sintiéndose renovado, aliviado y en equilibrio, alcanzando su propio
               momento de claridad y bienestar.
             </p>

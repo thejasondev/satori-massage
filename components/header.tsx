@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import MobileMenu from "./mobile-menu";
 
@@ -113,7 +114,7 @@ export default function Header() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        className={`fixed inset-x-0 top-0 z-50 transition duration-300 ${
           scrolled || mobileMenuOpen
             ? "bg-background/95 shadow-sm backdrop-blur-sm"
             : "bg-transparent"
@@ -124,7 +125,7 @@ export default function Header() {
             <Link href="#inicio" className="relative z-50 flex items-center">
               <div className="flex items-center m-2">
                 <div className="w-10 h-10 bg-background rounded-full flex items-center justify-center">
-                  <img src="/lotus.svg" alt="Logo Satori Massage" />
+                  <Image src="/lotus.svg" alt="Logo Satori Massage" width={40} height={40} />
                 </div>
                 <div className="ml-2 flex flex-col">
                   <p className="font-brand text-4xl leading-none">Satori</p>
