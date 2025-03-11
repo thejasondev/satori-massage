@@ -84,7 +84,7 @@ export default function Pricing() {
               </ul>
               <div className="mt-auto">
                 <Link
-                  href={`https://wa.me/1234567890?text=Hola,%20me%20interesa%20reservar%20el%20servicio%20de%20${option.name}`}
+                  href={`https://wa.me/+5355396424?text=Hola,%20me%20interesa%20reservar%20el%20servicio%20de%20${option.name}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={option.popular ? "btn-primary w-full text-center" : "btn-secondary w-full text-center"}

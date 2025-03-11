@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Instagram, Facebook, Mail, Phone } from "lucide-react"
+import { Instagram, Facebook, Phone } from "lucide-react"
 
 const navigation = [
   { name: "Inicio", href: "#inicio" },
@@ -56,7 +56,7 @@ export default function Footer() {
               <li className="flex items-center">
                 <Phone className="w-4 h-4 mr-2 text-primary" />
                 <a href="tel:+34123456789" className="text-sm text-muted-foreground hover:text-primary">
-                  +34 123 456 789
+                  +53 55396424
                 </a>
               </li>
               <li className="flex items-center">

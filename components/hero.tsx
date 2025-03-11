@@ -19,7 +19,7 @@ export default function Hero() {
             puerta.
           </p>
           <Link
-            href="https://wa.me/1234567890?text=Hola,%20me%20gustaría%20reservar%20una%20sesión%20de%20masaje"
+            href="https://wa.me/+5355396424?text=Hola,%20me%20gustaría%20reservar%20una%20sesión%20de%20masaje"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary fade-in"

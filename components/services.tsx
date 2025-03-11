@@ -47,7 +47,7 @@ export default function Services() {
               <p className="mb-6 text-gray-500">{service.description}</p>
               <div className="mt-auto">
                 <Link
-                  href={`https://wa.me/1234567890?text=Hola,%20me%20interesa%20el%20servicio%20de%20${service.name}`}
+                  href={`https://wa.me/+5355396424?text=Hola,%20me%20interesa%20el%20servicio%20de%20${service.name}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm transition-colors text-primary hover:text-primary/80 font-semibold"

@@ -9,7 +9,7 @@ export default function About() {
             {/* Espacio para foto de la masajista */}
             <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-primary/5 opacity-30"></div>
             <Image
-              src="/placeholder.svg?height=600&width=600"
+              src="/profile.jpg?height=600&width=600"
               alt="Masajista profesional"
               fill
               className="object-cover"
@@ -19,7 +19,7 @@ export default function About() {
           <div>
             <h2 className="mb-6 text-3xl font-medium slide-in-right">Sobre Mí</h2>
             <p className="mb-4 text-gray-500 slide-in-right">
-              Soy Ana, fundadora de Satori Massage y masajista certificada con más de 8 años de experiencia en
+              Soy Suset, fundadora de Satori Massage y masajista certificada en
               diferentes técnicas terapéuticas y de relajación. Mi pasión es ayudar a las personas a encontrar alivio y
               bienestar a través del poder del tacto terapéutico.
             </p>
@@ -36,7 +36,7 @@ export default function About() {
 
             <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
               <div className="p-4 text-center rounded-lg bg-muted fade-in">
-                <p className="text-2xl font-bold">8+</p>
+                <p className="text-2xl font-bold">1+</p>
                 <p className="text-sm text-muted-foreground">Años de experiencia</p>
               </div>
               <div className="p-4 text-center rounded-lg bg-muted fade-in">
@@ -44,7 +44,7 @@ export default function About() {
                 <p className="text-sm text-muted-foreground">Certificaciones</p>
               </div>
               <div className="p-4 text-center rounded-lg bg-muted fade-in">
-                <p className="text-2xl font-bold">500+</p>
+                <p className="text-2xl font-bold">50+</p>
                 <p className="text-sm text-muted-foreground">Clientes satisfechos</p>
               </div>
               <div className="p-4 text-center rounded-lg bg-muted fade-in">
