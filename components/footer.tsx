@@ -20,7 +20,7 @@ export default function Footer() {
       <div className="container">
         {/* Logo y descripción siempre en la parte superior */}
         <div className="mb-8">
-            <Link href="#inicio" className="relative z-50 flex items-center">
+            <Link href="#inicio" className="relative z-40 flex items-center">
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-background rounded-full flex items-center justify-center">
                 <Image src="/lotus.svg" alt="Logo Satori Massage" width={40} height={40} />

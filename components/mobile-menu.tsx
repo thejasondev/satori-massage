@@ -54,7 +54,7 @@ const MobileMenu: FC<MobileMenuProps> = ({
             aria-label="Menú de navegación"
           >
             <div className="flex justify-between items-center p-4 border-b border-gray-100">
-              <div className="flex items-center">
+              <div className="flex items-center z-50">
                 <div className="w-10 h-10 bg-background rounded-full flex items-center justify-center">
                 <Image src="/lotus.svg" alt="Logo Satori Massage" width={40} height={40} />
                 </div>

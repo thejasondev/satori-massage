@@ -3,7 +3,7 @@ import Link from "next/link"
 const pricingOptions = [
   {
     name: "Sesión Individual",
-    price: "$60",
+    price: "$25",
     duration: "60 minutos",
     features: ["Consulta previa", "Técnica a elección", "Aromaterapia básica", "Música relajante"],
     cta: "Reservar sesión",
@@ -11,7 +11,7 @@ const pricingOptions = [
   },
   {
     name: "Sesión Premium",
-    price: "$85",
+    price: "$60",
     duration: "90 minutos",
     features: [
       "Consulta personalizada",
@@ -25,7 +25,7 @@ const pricingOptions = [
   },
   {
     name: "Pack 5 Sesiones",
-    price: "$275",
+    price: "$150",
     duration: "60 minutos/sesión",
     features: [
       "Ahorra un 8%",
