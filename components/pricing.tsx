@@ -25,7 +25,7 @@ const pricingOptions = [
   },
   {
     name: "Pack 5 Sesiones",
-    price: "$150",
+    price: "$110",
     duration: "60 minutos/sesión",
     features: [
       "Ahorra un 8%",
